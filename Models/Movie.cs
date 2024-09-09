@@ -12,4 +12,5 @@ public class Movie
     public string? Genre { get; set; }
     [Range(0, 5)]
     public decimal Rating { get; set; }
+    public decimal Price { get; set; }
 }
