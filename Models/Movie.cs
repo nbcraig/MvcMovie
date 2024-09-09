@@ -10,7 +10,5 @@ public class Movie
     [DataType(DataType.Date)]
     public DateTime ReleaseDate { get; set; }
     public string? Genre { get; set; }
-    [Range(0, 5)]
-    public decimal Rating { get; set; }
     public decimal Price { get; set; }
 }
